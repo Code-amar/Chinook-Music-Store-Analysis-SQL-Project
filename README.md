@@ -1,95 +1,93 @@
 # Chinook-Music-Store-Analysis-SQL-Project
 ![image alt](https://github.com/Code-amar/Chinook-Music-Store-Analysis-SQL-Project/blob/f044e3c0b285afcca2faaec6541702fb87d08665/Chinook%20Music%20Store.png)
 
-📌 Project Overview
+🔍 Project Overview
 
-This project is an end-to-end SQL-based data analysis performed on the Chinook Music Store database.
-The objective was to analyze music sales, customer behavior, and geographic performance to generate business insights and strategic recommendations.
+This project analyzes the Chinook Music Store database to uncover insights into customer purchasing behavior, sales performance, genre trends, and customer retention. The objective is to support data-driven business decisions in the physical music market using SQL-based analytics and business reasoning.
 
-Unlike guided exercises, this project was completed in an open-ended manner, requiring independent problem-solving, assumption validation, and iterative query design—closely simulating real-world analytics work.
+🎯 Business Objectives
 
-🧠 Business Objectives
+Identify top-performing genres, artists, albums, and tracks
 
-The analysis focuses on answering both objective and subjective business questions, including:
+Analyze customer behavior, churn, and lifetime value
 
-Identifying top-selling tracks, artists, and genres
+Evaluate regional market performance
 
-Analyzing revenue performance across countries, states, and cities
+Provide actionable recommendations for revenue growth and retention
 
-Understanding customer purchasing behavior and churn patterns
+🗄️ Dataset Description
 
-Ranking customers and genres by revenue contribution
+The Chinook database consists of 11 relational tables, including:
 
-Deriving insights for marketing, retention, and cross-selling strategies
+Customers, Invoices, Invoice Lines
 
-🗂️ Dataset Description
+Tracks, Albums, Artists, Genres
 
-The project uses the Chinook Database, which represents a digital music store.
-Key tables include:
+Playlists and Media Types
 
-customer – customer details and geography
-
-invoice & invoice_line – transactional sales data
-
-track, album, artist, genre – product metadata
-
-playlist, playlist_track – track categorization
+It covers 24 countries and 25 music genres, enabling global market analysis.
 
 🛠️ Tools & Technologies
 
-SQL – Core analysis (Joins, Aggregations, CTEs, Window Functions)
+SQL (MySQL)
 
-Excel – Supporting analysis and visualizations
+CTEs, Window Functions, Joins, Subqueries
 
-PowerPoint – Business presentation for stakeholders
+Excel (for visualizations)
 
-Word / Docs – Documentation of insights and recommendations
+Business Analytics & Reporting
 
-🔍 Key Analyses Performed
+🔎 Key Analyses Performed
 
-Revenue and invoice analysis by geography
+Data quality checks (NULL handling, duplicate validation)
 
-Top customers and customer segmentation
+Revenue and invoice analysis by country, city, and customer
 
-Genre and artist sales performance
+Top-selling tracks, artists, albums, and genres (USA & Global)
 
-Customer churn identification
+Customer purchase frequency and average order value
 
-Product affinity and cross-genre purchasing patterns
+Customer churn analysis and inactivity tracking
 
-Ranking and percentage contribution analysis
+Product affinity and cross-selling analysis
 
-📊 Deliverables
+Customer risk profiling and lifetime value modeling
 
-This repository contains:
+📊 Key Insights
 
-SQL Scripts (.sql) – All queries used for analysis
+Rock is the dominant genre in the USA and globally, contributing over 50% of US sales
 
-Documentation (.docx / .pdf) – Detailed answers and insights
+USA leads in total revenue and customer base, while Czech Republic has the highest average spend per customer
 
-Presentation (.pptx) – Executive-ready summary and recommendations
+Long-term customers generate the majority of revenue; new customers show early churn risk
 
-📈 Key Insights (High-Level)
+Certain regions (Germany, France, Brazil) exhibit higher churn and require targeted retention strategies
 
-Rock and related genres dominate overall sales, especially in the USA
+Customers often purchase multiple tracks from the same genre or artist, enabling effective cross-selling
 
-A small group of customers contributes a significant portion of revenue
+📈 Business Recommendations
 
-Customer purchasing behavior varies by region, indicating localization opportunities
+Prioritize USA market with targeted Rock-focused promotions
 
-Cross-genre purchasing patterns support bundled promotions and recommendations
+Expand in high-value regions such as Czech Republic and Ireland
 
-Churn risk can be inferred from purchase recency and frequency
+Reduce churn using personalized offers and loyalty programs
 
-🚀 Learning Outcomes
+Use product affinity insights to drive bundled recommendations
 
-Strengthened SQL proficiency through real-world analytical scenarios
+Focus on converting new customers into long-term buyers
 
-Improved ability to work with ambiguous, open-ended problems
+📁 Project Deliverables
 
-Enhanced business thinking alongside technical execution
+SQL File: Complete analytical queries
 
-Experience translating raw data into actionable insights
+Documentation: Detailed answers and business insights
+
+Presentation: Executive-ready management deck
+
+✅ Outcome
+
+This project demonstrates the application of SQL-driven analytics to solve real-world business problems, convert data into insights, and deliver strategic recommendations suitable for senior management decision-making.
 
 📎 How to Use
 
